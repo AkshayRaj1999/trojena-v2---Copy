@@ -268,7 +268,7 @@ header {
   font-weight: 700;
   letter-spacing: 0.16em;
   color: var(--white-color);
-  margin-bottom: 48px;
+  margin-bottom: 38px;
   line-height: 43px;
 }
 
@@ -699,7 +699,7 @@ span.error {
     line-height: 38px;
     letter-spacing: 0.16em;
     color: var(--white-color);
-    margin-bottom: 48px;
+    margin-bottom: 38px;
   }
 
   .neom__residential__properties__section h3 {
