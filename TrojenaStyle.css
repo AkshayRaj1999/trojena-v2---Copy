@@ -902,6 +902,7 @@ span.error {
 
 .iti--inline-dropdown .iti__dropdown-content {
   width: max-content !important;
+  z-index: 100;
 }
 
 #moreText {
