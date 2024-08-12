@@ -200,8 +200,9 @@ header {
 }
 
 .navbar__logo__container {
-  max-width: 216px;
+  width: 216px;
   height: auto;
+  object-fit: contain;
 }
 
 .cta__button {
@@ -329,6 +330,9 @@ header {
 
 .trojena__location__indication__image__wrapper img {
   aspect-ratio: 1.37 / 1;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .trojena__location__indication__text__wrapper {
@@ -372,12 +376,14 @@ header {
 
 .trojena__unique__image__container {
   height: 100%;
-  width: 100%;
+  width: auto;
 }
 
 .trojena__unique__image__container img {
   object-fit: cover;
   aspect-ratio: 1/1;
+  width: 100%;
+  height: auto;
 }
 
 .trojena__contact__section {
@@ -512,6 +518,7 @@ span.error {
 .contact__form__input__fields {
   display: flex;
   position: relative;
+  align-items: center;
 }
 
 .contact__form__input__fields input[type="radio"],
@@ -647,7 +654,11 @@ span.error {
   display: flex;
   align-items: center;
 }
-
+.trojena__footer__social__media__links ul li a img{
+  height:42px;
+  width: 42px;
+  object-fit: contain;
+}
 .trojena__footer__social__media__links ul li:not(:last-child) {
   margin-right: 14px;
 }
@@ -674,7 +685,7 @@ span.error {
   }
 
   .navbar__logo__container {
-    max-width: 166px;
+    width: 166px;
   }
 
   .hero__banner__section {
@@ -1131,6 +1142,9 @@ span.error {
 }
 .play__btn__container img{
   position: unset;
+  height: 44px;
+  width: 44px;
+  object-fit: contain;
 }
 .thanks__note__content__wrapper__image__container{
   width: 67px;
