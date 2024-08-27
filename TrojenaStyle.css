@@ -537,7 +537,7 @@ span.error {
   outline: none;
   cursor: pointer;
   position: relative;
-  /* background-color: white; */
+  background-color: white;
 }
 
 .contact__form__input__fields input[type="radio"] {
@@ -679,6 +679,10 @@ span.error {
   height: 42px;
   width: 42px;
   object-fit: contain;
+}
+.trojena__footer__social__media__links ul li a img:hover{
+  scale: 1.1;
+  transition: all 100ms ease-in-out;
 }
 
 .trojena__footer__social__media__links ul li:not(:last-child) {
